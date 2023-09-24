@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Hot Coffee",
+      "price": 10.99,
+      "imgUrl": "/imgs/coffee.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Iced coffee",
+      "price": 1199,
+      "imgUrl": "/imgs/coffee2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "price": 1.05,
+      "imgUrl": "/imgs/coffee3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Car",
+      "price": 14000,
+      "imgUrl": "/imgs/car.jpg"
+    }
+  ]
