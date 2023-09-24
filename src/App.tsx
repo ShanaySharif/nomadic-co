@@ -3,7 +3,7 @@ import {Container} from "react-bootstrap"
 import {Home} from "./pages/Home"
 import {Coffee} from "./pages/Coffee"
 import {SignIn} from "./pages/SignIn"
-import {Navbar} from "./components Navbar"
+import {Navbar} from "./components/Navbar"
 
 
 function App () {
