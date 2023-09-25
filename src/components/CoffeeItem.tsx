@@ -1,6 +1,8 @@
 // import React from 'react';
 
-import { Card } from "react-bootstrap"
+import { Button, Card } from "react-bootstrap"
+import {formatCurrency} from "../utilities/formatCurrency"
+// import imgs from "../../public/imgs"
 
 
 //defining type
@@ -8,33 +10,33 @@ type CoffeeItemProps = {
     id: number
     name: string
     price: number
-    imgURL: string
+    imgUrl: string
 }
 
-export function CoffeeItem({ id, name, price, imgURL }: CoffeeItemProps) {
+export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
+    const quantity = 0
     return (
-        <Card>
+        <Card className = "h-100">
             <Card.Img
                 variant="top"
-                src={imgURL}
+                src={imgUrl}
                 height="200px"
                 style={{ objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-space-between align-items-baseline mb-4">
+                <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
                     <span className="fs-2">{ name }</span>
-                    <span className="ms-2">{price}</span>
-                    <span className="fs-2">{id}</span>
-                    <span className="ms-2">{price}</span>
-                    <span className="ms-2">{price}</span>
+                    <span className="ms-text-muted">{formatCurrency (price)}</span>
+                    {/* <span className="fs-2">{ id }</span> */}
 
-
-
-
-                    
-
-
+                   
                 </Card.Title>
+                <div className = "mt-auto"> 
+                {quantity === 0 ? 
+                <Button> + Add To Cart</Button> :
+                 null}
+                 
+                </div>
 
             </Card.Body>
 
