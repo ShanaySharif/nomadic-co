@@ -21,7 +21,17 @@ export function CoffeeItem({ id, name, price, imgURL }: CoffeeItemProps) {
                 style={{ objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">
-                <Card.Title className="d-flex justify-content-space-between align-items-baseline">
+                <Card.Title className="d-flex justify-content-space-between align-items-baseline mb-4">
+                    <span className="fs-2">{ name }</span>
+                    <span className="ms-2">{price}</span>
+                    <span className="fs-2">{id}</span>
+                    <span className="ms-2">{price}</span>
+                    <span className="ms-2">{price}</span>
+
+
+
+
+                    
 
 
                 </Card.Title>

@@ -13,14 +13,14 @@
     },
     {
       "id": 3,
-      "name": "Banana",
+      "name": "Matcha",
       "price": 1.05,
       "imgUrl": "/imgs/coffee3.jpg"
     },
     {
       "id": 4,
-      "name": "Car",
-      "price": 14000,
+      "name": "Cold Brew",
+      "price": 7.89,
       "imgUrl": "/imgs/car.jpg"
     }
   ]
