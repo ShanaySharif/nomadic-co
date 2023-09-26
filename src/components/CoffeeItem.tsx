@@ -30,14 +30,18 @@ export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
 
                 </Card.Title>
                 <div className="mt-auto">
-                    {quantity === 1 ? (
+                    {quantity === 0 ? (
                     <Button className="w-100">  + Add To Cart</Button>
                     ) : <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem" }}>
 
                         <div className="d-flex align-items-center justify-content-center" style={{ gap: ".5rem" }}>
                             <Button> - </Button>
+                            <div>
+                            <span className="fs-3"></span> 1 in cart
+                            </div>
                             <Button> + </Button>
                         </div>
+                        <Button variant="danger" size="sm"> remove </Button>
                     </div>
  }
                 </div>
