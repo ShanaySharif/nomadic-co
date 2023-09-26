@@ -2,7 +2,6 @@
 
 import { Button, Card } from "react-bootstrap"
 import { formatCurrency } from "../utilities/formatCurrency"
-// import imgs from "../../public/imgs"
 
 
 //defining type
