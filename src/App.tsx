@@ -4,11 +4,12 @@ import {Home} from "./pages/Home"
 import {Coffee} from "./pages/Coffee"
 import {SignIn} from "./pages/SignIn"
 import {Navbar} from "./components/Navbar"
+import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 
 
 function App () {
   return (
-    <> 
+    <ShoppingCartProvider>
     <Navbar />
    <Container className="mb-4"> 
   <Routes>
@@ -17,7 +18,8 @@ function App () {
     <Route path="/SignIn" element={<SignIn />} />
   </Routes>
   </Container>
-  </>
+  </ShoppingCartProvider>
   )
 }
 export default App
+
