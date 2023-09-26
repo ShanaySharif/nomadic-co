@@ -35,19 +35,13 @@ export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
                     ) : <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem" }}>
 
                         <div className="d-flex align-items-center justify-content-center" style={{ gap: ".5rem" }}>
-                        
-
-                            hi
+                            <Button> - </Button>
+                            <Button> + </Button>
                         </div>
-                        bye
                     </div>
  }
-
                 </div>
-
-
             </Card.Body>
-
         </Card>
     )
 }
