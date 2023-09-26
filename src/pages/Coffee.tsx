@@ -13,7 +13,7 @@ export function Coffee() {
 
             {coffeeItems.map(item => (
                 <Col key ={item.id}>
-                <CoffeeItem imgURL={""} {...item} />
+                <CoffeeItem {...item} />
                 </Col>  
             ))}
         </Row>

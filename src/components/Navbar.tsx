@@ -9,10 +9,10 @@ export function Navbar() {
                 <Nav.Link to="/" as={NavLink}>
                     Home
                 </Nav.Link>
-                <Nav.Link to="/" as={NavLink}>
+                <Nav.Link to="/coffee" as={NavLink}>
                     Coffee
                 </Nav.Link>
-                <Nav.Link to="/" as={NavLink}>
+                <Nav.Link to="/SignIn" as={NavLink}>
                     SignIn
                 </Nav.Link>
                 </Nav>
@@ -33,9 +33,8 @@ export function Navbar() {
                  bottom: 0,
                  right: 0,
                  transform: "translate(25%, 25%)",
-                 
                  }}
-                 > 3
+                 > 6
 
             </div>
                 </Button>
