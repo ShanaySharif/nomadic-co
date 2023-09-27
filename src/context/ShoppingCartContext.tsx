@@ -13,13 +13,13 @@ type CartItem = {
 
 
 type ShoppingCartContext = {
-  openCart() =>
-  closeCart () => void
+  openCart: () => void
+  closeCart: () => void
   getItemQuantity: (id: number) => number
   increaseCartQuantity: (id: number) => void //will return nothing
   decreaseCartQuantity: (id: number) => void
   removeFromCart: (id: number) => void
-  cartQuantity: number => void
+  cartQuantity: number
   cartItems: CartItem[]
 }
 const ShoppingCartContext = createContext({} as ShoppingCartContext) //pass in empty obj
@@ -88,9 +88,12 @@ export function ShoppingCartProvider({ children }:
         getItemQuantity,
         increaseCartQuantity,
         decreaseCartQuantity,
-        removeFromCart
+        removeFromCart,
+        openCart, 
+        closeCart,
         cartItems,
         cartQuantity,
+
       }}>
       {children}
     </ShoppingCartContext.Provider>
