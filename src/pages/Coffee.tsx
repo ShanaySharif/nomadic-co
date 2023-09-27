@@ -1,7 +1,6 @@
 
 import {Col, Row} from "react-bootstrap"
 import {CoffeeItem} from "../components/CoffeeItem"
-
 import coffeeItems from "../data/items.json"
 
 export function Coffee() {
@@ -20,5 +19,7 @@ export function Coffee() {
     
     )
 }
+
+
 
 

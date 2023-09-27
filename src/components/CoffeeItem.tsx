@@ -13,7 +13,7 @@ type CoffeeItemProps = {
     imgUrl: string
 }
 
-export function StoreItem({ id, name, price, imgUrl }: CoffeeItemProps) {
+export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
     const {
       getItemQuantity,
       increaseCartQuantity,

@@ -12,10 +12,10 @@ export function Navbar() {
             Home
           </Nav.Link>
           <Nav.Link to="/Menu" as={NavLink}>
-            Store
+            Menu
           </Nav.Link>
           <Nav.Link to="/SignIn" as={NavLink}>
-            About
+            SignIn
           </Nav.Link>
         </Nav>
         {cartQuantity > 0 && (
