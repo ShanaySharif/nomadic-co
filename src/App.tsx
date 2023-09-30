@@ -5,6 +5,10 @@ import {Coffee} from "./pages/Coffee"
 import {SignIn} from "./pages/SignIn"
 import {Navbar} from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
+import {Profile} from "./pages/Profile"
+
+
+
 
 
 function App () {
@@ -16,6 +20,7 @@ function App () {
     <Route path="/" element={<Home />} />
     <Route path="/Menu" element={<Coffee />} />
     <Route path="/SignIn" element={<SignIn />} />
+    <Route path="/Profile" element={<Profile />} />
   </Routes>
   </Container>
   </ShoppingCartProvider>
