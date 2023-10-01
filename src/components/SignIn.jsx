@@ -12,8 +12,7 @@ const SignIn = () => {
                 <input type="email" placeholder="Enter your email"></input>
             </form>
         </div>
-    )
+    );
+};
 
-
-
-}
+export default SignIn;
