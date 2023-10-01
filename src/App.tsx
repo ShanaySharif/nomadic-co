@@ -2,10 +2,11 @@ import {Routes, Route} from "react-router-dom"
 import {Container} from "react-bootstrap"
 import {Home} from "./pages/Home"
 import {Coffee} from "./pages/Coffee"
-import {SignIn} from "./pages/SignIn"
+// import {SignIn} from "./pages/SignIn"
 import {Navbar} from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 import {Profile} from "./pages/Profile"
+import SignIn from "./components/Auth/SignIn"
 
 
 
