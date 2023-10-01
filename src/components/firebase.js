@@ -9,16 +9,8 @@ const firebaseConfig = {
   storageBucket: import.meta.env.VITE_REACT_APP_FIREBASE_STORAGE_BUCKET,
   messagingSenderId: import.meta.env.VITE_REACT_APP_FIREBASE_SENDER_ID,
   appId: import.meta.env.VITE_REACT_APP_FIREBASE_APP_ID
-};
+}
 
-
-
-// //initialize firebase
-// const app = initializeApp(firebaseConfig);
-// //initilize birebase authentication
-// export const auth = getAuth(app);
-
-// export { auth };
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);

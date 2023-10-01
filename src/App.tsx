@@ -6,7 +6,8 @@ import {Coffee} from "./pages/Coffee"
 import {Navbar} from "./components/Navbar"
 import { ShoppingCartProvider } from "./context/ShoppingCartContext"
 import {Profile} from "./pages/Profile"
-import SignIn from "./components/Auth/SignIn"
+import SignIn from "./components/auth/SignIn"
+import SignUp from "./components/auth/SignUp"
 
 
 
@@ -21,6 +22,8 @@ function App () {
     <Route path="/" element={<Home />} />
     <Route path="/Menu" element={<Coffee />} />
     <Route path="/SignIn" element={<SignIn />} />
+    <Route path="/SignUp" element={<SignUp />} />
+
     <Route path="/Profile" element={<Profile />} />
   </Routes>
   </Container>
