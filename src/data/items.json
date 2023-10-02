@@ -1,29 +1,113 @@
 [
     {
       "id": 1,
-      "name": "Hot Coffee",
-      "price": 10.99,
+      "name": "Cappuccino",
+      "price": 8.95,
       "imgUrl": "/imgs/coffee.jpg"
     },
     {
       "id": 2,
-      "name": "Iced coffee",
+      "name": "Americano",
       "price": 5.99,
-      "imgUrl": "/imgs/coffee2.jpg"
+      "imgUrl": "/imgs/Americano.jpg"
     },
     {
       "id": 3,
-      "name": "Matcha",
+      "name": "Caffè Macchiato",
       "price": 1.05,
-      "imgUrl": "/imgs/coffee3.jpg"
+      "imgUrl": "/imgs/Macchiato.jpg"
     },
     {
       "id": 4,
-      "name": "Cold Brew",
+      "name": "Nitro Cold Brew coffee",
       "price": 7.89,
-      "imgUrl": "/imgs/iced-coffee-05.jpg"
+      "imgUrl": "/imgs/Iced_Latte.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Espresso",
+      "price": 7.89,
+      "imgUrl": "/imgs/Espresso.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Matcha Late ",
+      "price": 7.89,
+      "imgUrl": "/imgs/Matcha.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Peppermint Tea",
+      "price": 7.89,
+      "imgUrl": "/imgs/peppermint.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Chai",
+      "price": 7.89,
+      "imgUrl": "/imgs/Chai.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Ginger Tea",
+      "price": 7.89,
+      "imgUrl": "/imgs/Ginger.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Jasmine Bliss ",
+      "price": 7.89,
+      "imgUrl": "/imgs/Jasmine.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Black Shah",
+      "price": 7.89,
+      "imgUrl": "/imgs/BlackChai.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Tropical Hibiscus",
+      "price": 7.89,
+      "imgUrl": "/imgs/Hibiscus.jpg"
+    },
+    {
+      "id": 13,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+    },
+    {
+      "id": 14,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+    },
+    {
+      "id": 15,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+    },
+    {
+      "id": 16,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+    },
+    {
+      "id": 17,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+    },
+    {
+      "id": 18,
+      "name": "coffee latte",
+      "price": 7.89,
+      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
     }
-    
+  
   ]
 
   

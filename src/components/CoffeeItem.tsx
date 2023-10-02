@@ -28,7 +28,7 @@ export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
             <Card.Img
                 variant="top"
                 src={imgUrl}
-                height="200px"
+                height="300px"
                 style={{ objectFit: "cover" }}
             />
             <Card.Body className="d-flex flex-column">

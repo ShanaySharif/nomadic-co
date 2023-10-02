@@ -17,9 +17,9 @@ export function Navbar() {
           <Nav.Link to="/SignIn" as={NavLink}>
             SignIn
           </Nav.Link>
-          <Nav.Link to="/SignUp" as={NavLink}>
+          {/* <Nav.Link to="/SignUp" as={NavLink}>
             SignUp
-          </Nav.Link>
+          </Nav.Link> */}
           <Nav.Link to="/Profile" as={NavLink}>
             Profile
           </Nav.Link>

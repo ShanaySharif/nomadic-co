@@ -6,7 +6,7 @@ import coffeeItems from "../data/items.json"
 export function Coffee() {
     return (
         <>
-        <h1>Menu</h1>
+        <h1>Menu Shanay</h1>
         <Row md={2} xs={1} lg={3} className="g-3">
 
             {coffeeItems.map(item => (
