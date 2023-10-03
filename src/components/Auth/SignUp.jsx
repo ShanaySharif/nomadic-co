@@ -45,6 +45,8 @@ import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } f
 import React, { useState } from "react";
 import { auth } from "../firebase";
 import styled from "styled-components";
+import { useNavigate } from "react-router-dom"; 
+
 
 const SignUpContainer = styled.div`
   display: flex;
@@ -136,6 +138,9 @@ const SignUp = () => {
   const [signInError, setSignInError] = useState(null);
   const [signOutSuccess, setSignOutSuccess] = useState(false);
 
+  const navigate = useNavigate();
+
+
   const signUp = (e) => {
     e.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
@@ -143,6 +148,7 @@ const SignUp = () => {
         console.log(userCredential);
         setSignInError(null);
         setSignUpSuccess(true);
+        navigate('/');
       })
       .catch((error) => {
         console.log(error);
