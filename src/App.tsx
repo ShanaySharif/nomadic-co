@@ -54,6 +54,7 @@ import { Profile } from "./pages/Profile";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 
+
 function App() {
   const [showSignIn, setShowSignIn] = useState(true);
 

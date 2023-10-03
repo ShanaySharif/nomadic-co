@@ -1,7 +1,12 @@
 
-import "../Home.css";
+import "../components/Styles/Home.css";
 import image from "../image/image.jpg";
+import { Cart } from '../components/Cart'
 import navbar from "../components/Navbar"
+
+
+// import footer from "../components/"
+// import footer from "./components/Styles/footer.css"
 
 
 
@@ -12,17 +17,14 @@ const Home = () => {
     >         <div className = "content">
             <h1>  Nomadic.Co </h1>
 
-            <p>  Your Home for Endless Aromas and Global Flavors. Embrace the Wanderlust, One Brew at a Time.</p>
+            <p>  Embrace the Wanderlust, One Brew at a Time.</p>
 
             <a href ="Menu"> Order </a>
-
-
-            {/* <a href ="SignIn"> Log In </a> */}
-
-
         </div>
     </section>
   );
 };
 
 export default Home;
+
+
