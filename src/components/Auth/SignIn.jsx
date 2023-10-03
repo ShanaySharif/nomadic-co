@@ -45,11 +45,19 @@
 
 // export default SignIn;
 
-
-import { signInWithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword, setPersistence, browserSessionPersistence } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../firebase";
-import styled from "styled-components"; // Import styled-components
+import styled from "styled-components";
+
+// Configure session persistence
+setPersistence(auth, browserSessionPersistence)
+  .then(() => {
+    // Session persistence successfully set
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 const SignInContainer = styled.div`
   display: flex;
@@ -110,18 +118,45 @@ const SignUpButton = styled.button`
   }
 `;
 
+const SuccessMessage = styled.p`
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+`;
+
+const ErrorMessage = styled.p`
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+`;
+
+const SignInMessage = styled.p`
+  font-weight: bold;
+  margin-top: 10px;
+`;
+
 const SignIn = ({ toggleForm }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [signInError, setSignInError] = useState(null);
+  const [signInSuccess, setSignInSuccess] = useState(false);
 
   const signIn = (e) => {
     e.preventDefault();
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         console.log(userCredential);
+        setSignInError(null);
+        setSignInSuccess(true);
       })
       .catch((error) => {
         console.log(error);
+        setSignInSuccess(false);
+        if (error.code === "auth/user-not-found" || error.code === "auth/wrong-password") {
+          setSignInError("Incorrect email or password. Please try again.");
+        } else {
+          setSignInError("Sign-in failed. Please try again later.");
+        }
       });
   };
 
@@ -142,6 +177,8 @@ const SignIn = ({ toggleForm }) => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <SubmitButton type="submit">Log In</SubmitButton>
+        {signInError && <ErrorMessage>{signInError}</ErrorMessage>}
+        {signInSuccess && <SuccessMessage>Logged in successfully</SuccessMessage>}
       </SignInForm>
       <SignUpText>
         Don't have an account?{" "}
