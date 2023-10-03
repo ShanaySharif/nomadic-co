@@ -54,7 +54,6 @@ import { Profile } from "./pages/Profile";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 
-
 function App() {
   const [showSignIn, setShowSignIn] = useState(true);
 
@@ -63,9 +62,10 @@ function App() {
   };
 
   return (
+
     <ShoppingCartProvider>
       <Navbar />
-      <Container className="mb-4">
+      {/* <Container className="mb-4"> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Menu" element={<Coffee />} />
@@ -81,9 +81,8 @@ function App() {
           />
           <Route path="/Profile" element={<Profile />} />
         </Routes>
-      </Container>
+      {/* </Container> */}
     </ShoppingCartProvider>
-    
    
   );
 }
