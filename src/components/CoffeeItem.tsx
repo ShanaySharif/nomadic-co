@@ -1,8 +1,10 @@
-// import React from 'react';
+import React from 'react';
 
 import { Button, Card } from "react-bootstrap"
 import { formatCurrency } from "../utilities/formatCurrency"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+
+// import './CoffeeItem.css'
 
 
 //defining type
@@ -71,3 +73,12 @@ export function CoffeeItem({ id, name, price, imgUrl }: CoffeeItemProps) {
     </Card>
   )
 }
+
+
+
+
+
+
+
+
+

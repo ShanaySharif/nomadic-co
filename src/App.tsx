@@ -50,9 +50,9 @@ import Home from "./pages/Home";
 import { Coffee } from "./pages/Coffee";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
-import { Profile } from "./pages/Profile";
-import SignIn from "./components/auth/SignIn";
+import SignIn from "./components/Auth/SignIn";
 import SignUp from "./components/auth/SignUp";
+
 
 
 function App() {
@@ -63,6 +63,8 @@ function App() {
   };
 
   return (
+
+    
 
     <ShoppingCartProvider>
       <Navbar />
@@ -80,10 +82,10 @@ function App() {
               )
             }
           />
-          <Route path="/Profile" element={<Profile />} />
         </Routes>
       {/* </Container> */}
     </ShoppingCartProvider>
+   
    
   );
 }

@@ -6,10 +6,14 @@ box-sizing: border-box;
 font-family: arial, Helvetica, sans-serif;
 }
 .p {
-    max-width: 600px; /* Adjust the max-width as per your design */
+    max-width: 600px; 
     margin: 0 auto; 
     padding: 20px;
 
+.bod {
+    background-color: burlywood;
+
+}
 
 }
  .homepage {

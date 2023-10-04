@@ -81,21 +81,21 @@ const Input = styled.input`
 const SubmitButton = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: #0074cc;
+  background-color: burlywood;
   color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 
   &:hover {
-    background-color: #005aaa;
+    background-color: #6F4E37;
   }
 `;
 
 const SignOutButton = styled.button`
   width: 100%;
   padding: 10px;
-  background-color: #cc0000;
+  background-color: #6F4E37;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -114,7 +114,7 @@ const SuccessMessage = styled.p`
 `;
 
 const ErrorMessage = styled.p`
-  color: red;
+  color: #6F4E37;
   font-weight: bold;
   margin-top: 10px;
 `;
