@@ -1,12 +1,13 @@
 
 import "../components/Styles/Home.css";
 import image from "../image/image.jpg";
-import { navbar } from "../components/Navbar"
-// import footer from "../components/Styles/footer.css"
+// import { navbar } from "../components/Navbar"
+
 
 
 const Home = () => {
   return (
+
     <div className="bod"> 
     <section className="homepage" style={{backgroundImage:` url(${image})`}}
     
@@ -21,8 +22,12 @@ const Home = () => {
         
     </section>
     </div>
+
+    
   );
 };
+
+
 
 export default Home;
 

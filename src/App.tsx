@@ -52,6 +52,7 @@ import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import SignIn from "./components/Auth/SignIn";
 import SignUp from "./components/auth/SignUp";
+import footer from "./styles/Footer.css"
 
 
 
