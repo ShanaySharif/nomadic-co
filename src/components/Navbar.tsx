@@ -60,7 +60,9 @@
 //   )
 // }
 
-import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
+// import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
+
+import { Button, Nav } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import "./styles/Navbar.css";
 import { useShoppingCart } from "../context/ShoppingCartContext"

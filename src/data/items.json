@@ -73,39 +73,39 @@
     },
     {
       "id": 13,
-      "name": "coffee latte",
+      "name": "Pepperment latte",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/peppermint latte.jpg"
     },
     {
       "id": 14,
-      "name": "coffee latte",
+      "name": "peppermint mocha",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/peppermint mocha.jpg"
     },
     {
       "id": 15,
-      "name": "coffee latte",
+      "name": "Green Tea",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/green_tea.webp"
     },
     {
       "id": 16,
-      "name": "coffee latte",
+      "name": "Floral Oolong",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/oolong.jpg"
     },
     {
       "id": 17,
-      "name": "coffee latte",
+      "name": "Pumpkin Spice Latte",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/iced-pumpkin-spice.jpg"
     },
     {
       "id": 18,
-      "name": "coffee latte",
+      "name": "Cinnamon Dolce",
       "price": 7.89,
-      "imgUrl": "/imgs/coffee-2242265_1280.jpg"
+      "imgUrl": "/imgs/Cinnamon-Dolce-Latte-8.jpg"
     }
   
   ]

@@ -1,7 +1,7 @@
 
-import React from 'react';
+// import React from 'react';
+
 import "../components/Styles/Footer.css"
-import "./styles/Footer.css";
 
 
 export function Footer() {

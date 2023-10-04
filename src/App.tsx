@@ -45,14 +45,13 @@
 
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
-import { Container } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
 import Home from "./pages/Home";
 import { Coffee } from "./pages/Coffee";
 import { Navbar } from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import SignIn from "./components/Auth/SignIn";
 import SignUp from "./components/auth/SignUp";
-import footer from "./styles/Footer.css"
 
 
 
@@ -64,9 +63,6 @@ function App() {
   };
 
   return (
-
-    
-
     <ShoppingCartProvider>
       <Navbar />
       {/* <Container className="mb-4"> */}
