@@ -1,6 +1,17 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+### Capstone Project -Nomaadic Cafe
+### By Shankaron Mohamed 
+
+## Description
+
+To further challenge myself and deepen my skills, I chose TypeScript as the focus for my capstone project. This decision arose from my desire to expand my TypeScript proficiency, an area not formally covered in the curriculum, while building upon the foundational knowledge acquired during the Epicodus. For my capstone project, I developed a coffee App using TypeScript, JavaScript, React, Node.js, and Firebase/Firestore for secure data storage and retrieval.
+
+This project allows users to login with their email and password, sign up for an account if they don't already have one and browse a coffee menu. Users could seamlessly manage their shopping carts, adjusting quantities or removing items as needed, with authentication required for access. 
+
+
+
+
 
 Available plugins:
 
@@ -31,7 +42,9 @@ If you are developing a production application, we recommend updating the config
 Description 
 
 
-
 Setup/Installation Requirements
+npm install firebase@9
+
+
 
 Add the following to .gitignore:
