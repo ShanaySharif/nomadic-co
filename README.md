@@ -9,9 +9,7 @@ To further challenge myself and deepen my skills, I chose TypeScript as the focu
 
 This project allows users to login with their email and password, sign up for an account if they don't already have one and browse a coffee menu. Users could seamlessly manage their shopping carts, adjusting quantities or removing items as needed, with authentication required for access. 
 
-
-
-
+Setup/Installation Requirements
 
 Available plugins:
 
@@ -38,13 +36,10 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 
-
-Description 
-
-
 Setup/Installation Requirements
 npm install firebase@9
 
-
+## Known Bugs
+- None
 
 Add the following to .gitignore:
