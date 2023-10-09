@@ -25,7 +25,7 @@ This project allows users to login with their email and password, sign up for an
  - Javascript 
  - Typescript 
  - React
- - Firebade/Firestore 
+ - Firebase/Firestore 
  - Vite
  
 
