@@ -90,4 +90,5 @@ If you are developing a production application, we recommend updating the config
 - None
 
 ## License
-MIT Copyright (c) 2023 Shankaron Mohamed
+[MIT](https://choosealicense.com/licenses/mit/)
+Copyright (c) 2023 Shankaron Mohamed
