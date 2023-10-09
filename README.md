@@ -9,7 +9,34 @@ To further challenge myself and deepen my skills, I chose TypeScript as the focu
 
 This project allows users to login with their email and password, sign up for an account if they don't already have one and browse a coffee menu. Users could seamlessly manage their shopping carts, adjusting quantities or removing items as needed, with authentication required for access. 
 
-Setup/Installation Requirements
+Setup/Installation Requirements 💻
+
+- In the terminal run these commands:
+
+$ git clone Nomadic-co
+
+$ cd Nomadic.co
+
+Then enter:
+
+$ touch .gitignore
+
+Add the following to .gitignore:
+
+    obj 
+    bin 
+    appsettings.json
+Navigate to the project folder:
+
+$ cd PokedexClient
+
+Add an appsettings.json file:
+
+$ touch appsettings.json
+
+Add the following to appsettings.json, replacing [user-id] and [password] with your MySQL username and password. Give the database a name by replacing [database-name].
+
+
 
 Available plugins:
 
@@ -41,5 +68,3 @@ npm install firebase@9
 
 ## Known Bugs
 - None
-
-Add the following to .gitignore:

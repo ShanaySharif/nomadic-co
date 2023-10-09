@@ -3,11 +3,10 @@ import { Button, Card, Container } from "react-bootstrap";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
-// Define your custom CSS class for burlywood buttons
 const burlywoodButtonStyle = {
   backgroundColor: 'burlywood',
-  color: 'white', // Text color for burlywood buttons
-  transition: 'background-color 0.3s ease', // Smooth transition on hover
+  color: 'white', 
+  transition: 'background-color 0.3s ease', 
 };
 
 // Defining type
