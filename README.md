@@ -9,33 +9,37 @@ To further challenge myself and deepen my skills, I chose TypeScript as the focu
 
 This project allows users to login with their email and password, sign up for an account if they don't already have one and browse a coffee menu. Users could seamlessly manage their shopping carts, adjusting quantities or removing items as needed, with authentication required for access. 
 
-Setup/Installation Requirements 💻
+## Setup/Installation Requirements 
 
+
+Ensure that you have Node.js and npm (Node Package Manager) installed on your computer. You can download them from the official Node.js website (https://nodejs.org/).
 - In the terminal run these commands:
 
-$ git clone Nomadic-co
+Navigate to the Project Directory:
 
-$ cd Nomadic.co
+- Change your current working directory to Nomadic-co
 
-Then enter:
+```
+cd Nomadic-co
+```
 
-$ touch .gitignore
+- To start the Vite development server and run your React app, use the following command: 
 
-Add the following to .gitignore:
+```
+npm run dev
+```
 
-    obj 
-    bin 
-    appsettings.json
-Navigate to the project folder:
+- This will start the development server, and you'll see your React app running at http://localhost:3000 in your browser.
 
-$ cd PokedexClient
+- You can now begin editing your React app. The main source code for your app is located in the src directory. As you make changes to your code, Vite will automatically update your app in the browser with fast hot module reloading.
 
-Add an appsettings.json file:
+- To stop the development server, you can press Ctrl+C in the terminal where it's running.
 
-$ touch appsettings.json
+- When you're ready to build your React app for production, you can use the following command:
+```
+npm run build
 
-Add the following to appsettings.json, replacing [user-id] and [password] with your MySQL username and password. Give the database a name by replacing [database-name].
-
+```
 
 
 Available plugins:
@@ -63,8 +67,7 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 
 
-Setup/Installation Requirements
-npm install firebase@9
+## 
 
 ## Known Bugs
 - None
