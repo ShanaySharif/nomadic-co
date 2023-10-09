@@ -3,6 +3,17 @@
 ### Capstone Project -Nomaadic Cafe
 ### By Shankaron Mohamed 
 
+![Alt text](<Screen Shot 2023-10-05 at 2.23.39 PM.png>)
+
+![Alt text](<Screen Shot 2023-10-05 at 2.24.56 PM.png>)
+
+![Alt text](<Screen Shot 2023-10-05 at 2.25.19 PM.png>)
+
+![Alt text](<Screen Shot 2023-10-05 at 2.25.26 PM.png>)
+
+
+
+
 ## Description
 
 To further challenge myself and deepen my skills, I chose TypeScript as the focus for my capstone project. This decision arose from my desire to expand my TypeScript proficiency, an area not formally covered in the curriculum, while building upon the foundational knowledge acquired during the Epicodus. For my capstone project, I developed a coffee App using TypeScript, JavaScript, React, Node.js, and Firebase/Firestore for secure data storage and retrieval.
